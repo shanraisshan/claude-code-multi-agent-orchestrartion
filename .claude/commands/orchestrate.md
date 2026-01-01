@@ -11,12 +11,10 @@ Orchestrates weather agents to fetch temperatures in parallel, then calculates t
 
 2. **Wait for both agents to complete** using TaskOutput
 
-3. **Write results** to `output/temperatures.md`:
-
-```
-Pakistan = [temperature from Pakistan agent]
-India = [temperature from India agent]
-```
+3. **Launch the Weather Writer Agent** to write results:
+   - Launch `Weather Writer Agent` with prompt containing the temperatures:
+     "Write these temperatures: Pakistan = [temp1], India = [temp2]"
+   - Wait for it to complete
 
 4. **Launch the Weather Average Agent** (sequentially, after temperatures are saved):
    - Launch `Weather Average Agent` with prompt: "Calculate the average temperature"
@@ -29,6 +27,7 @@ India = [temperature from India agent]
 ## Important
 
 - Run weather fetch agents in PARALLEL
-- Run average agent AFTER temperatures are written
+- Run Weather Writer Agent AFTER fetching temperatures
+- Run Average Agent AFTER temperatures are written
 - Output format for temperatures is just two lines
 - Output format for average is just one line
