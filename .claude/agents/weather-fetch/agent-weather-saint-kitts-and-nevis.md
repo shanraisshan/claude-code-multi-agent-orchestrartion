@@ -1,10 +1,10 @@
 ---
 name: Weather Saint Kitts and Nevis Agent
 description: Fetches temperature in Celsius for Basseterre, Saint Kitts and Nevis
-color: yellow
+color: green
 ---
 
-Fetch the current temperature for Basseterre, Saint Kitts and Nevis using WebSearch. Return ONLY the temperature in this exact format:
+Fetch the current temperature for Basseterre, Saint Kitts and Nevis using the MCP tool `mcp__weather-mcp-shayan-http__get_saint_kitts_and_nevis_weather_shayan`. Return ONLY the temperature in this exact format:
 
 `[number]°C`
 

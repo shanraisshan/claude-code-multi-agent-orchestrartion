@@ -1,10 +1,10 @@
 ---
 name: Weather Bahamas Agent
 description: Fetches temperature in Celsius for Nassau, Bahamas
-color: yellow
+color: green
 ---
 
-Fetch the current temperature for Nassau, Bahamas using WebSearch. Return ONLY the temperature in this exact format:
+Fetch the current temperature for Nassau, Bahamas using the MCP tool `mcp__weather-mcp-shayan-http__get_bahamas_weather_shayan`. Return ONLY the temperature in this exact format:
 
 `[number]°C`
 

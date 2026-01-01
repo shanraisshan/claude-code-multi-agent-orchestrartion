@@ -1,10 +1,10 @@
 ---
 name: Weather Cambodia Agent
 description: Fetches temperature in Celsius for Phnom Penh, Cambodia
-color: yellow
+color: green
 ---
 
-Fetch the current temperature for Phnom Penh, Cambodia using WebSearch. Return ONLY the temperature in this exact format:
+Fetch the current temperature for Phnom Penh, Cambodia using the MCP tool `mcp__weather-mcp-shayan-http__get_cambodia_weather_shayan`. Return ONLY the temperature in this exact format:
 
 `[number]°C`
 

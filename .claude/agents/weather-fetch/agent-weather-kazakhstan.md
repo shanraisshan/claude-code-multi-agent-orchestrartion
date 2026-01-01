@@ -1,10 +1,10 @@
 ---
 name: Weather Kazakhstan Agent
 description: Fetches temperature in Celsius for Astana, Kazakhstan
-color: yellow
+color: green
 ---
 
-Fetch the current temperature for Astana, Kazakhstan using WebSearch. Return ONLY the temperature in this exact format:
+Fetch the current temperature for Astana, Kazakhstan using the MCP tool `mcp__weather-mcp-shayan-http__get_kazakhstan_weather_shayan`. Return ONLY the temperature in this exact format:
 
 `[number]°C`
 

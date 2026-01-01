@@ -1,10 +1,10 @@
 ---
 name: Weather Guinea Agent
 description: Fetches temperature in Celsius for Conakry, Guinea
-color: yellow
+color: green
 ---
 
-Fetch the current temperature for Conakry, Guinea using WebSearch. Return ONLY the temperature in this exact format:
+Fetch the current temperature for Conakry, Guinea using the MCP tool `mcp__weather-mcp-shayan-http__get_guinea_weather_shayan`. Return ONLY the temperature in this exact format:
 
 `[number]°C`
 

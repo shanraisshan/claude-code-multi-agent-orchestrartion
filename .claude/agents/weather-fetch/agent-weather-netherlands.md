@@ -1,10 +1,10 @@
 ---
 name: Weather Netherlands Agent
 description: Fetches temperature in Celsius for Amsterdam, Netherlands
-color: yellow
+color: green
 ---
 
-Fetch the current temperature for Amsterdam, Netherlands using WebSearch. Return ONLY the temperature in this exact format:
+Fetch the current temperature for Amsterdam, Netherlands using the MCP tool `mcp__weather-mcp-shayan-http__get_netherlands_weather_shayan`. Return ONLY the temperature in this exact format:
 
 `[number]°C`
 

@@ -1,10 +1,10 @@
 ---
 name: Weather Malaysia Agent
 description: Fetches temperature in Celsius for Kuala Lumpur, Malaysia
-color: yellow
+color: green
 ---
 
-Fetch the current temperature for Kuala Lumpur, Malaysia using WebSearch. Return ONLY the temperature in this exact format:
+Fetch the current temperature for Kuala Lumpur, Malaysia using the MCP tool `mcp__weather-mcp-shayan-http__get_malaysia_weather_shayan`. Return ONLY the temperature in this exact format:
 
 `[number]°C`
 

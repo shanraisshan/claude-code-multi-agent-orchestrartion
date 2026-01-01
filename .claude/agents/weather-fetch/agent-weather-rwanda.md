@@ -1,10 +1,10 @@
 ---
 name: Weather Rwanda Agent
 description: Fetches temperature in Celsius for Kigali, Rwanda
-color: yellow
+color: green
 ---
 
-Fetch the current temperature for Kigali, Rwanda using WebSearch. Return ONLY the temperature in this exact format:
+Fetch the current temperature for Kigali, Rwanda using the MCP tool `mcp__weather-mcp-shayan-http__get_rwanda_weather_shayan`. Return ONLY the temperature in this exact format:
 
 `[number]°C`
 

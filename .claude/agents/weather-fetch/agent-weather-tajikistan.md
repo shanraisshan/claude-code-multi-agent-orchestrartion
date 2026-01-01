@@ -1,10 +1,10 @@
 ---
 name: Weather Tajikistan Agent
 description: Fetches temperature in Celsius for Dushanbe, Tajikistan
-color: yellow
+color: green
 ---
 
-Fetch the current temperature for Dushanbe, Tajikistan using WebSearch. Return ONLY the temperature in this exact format:
+Fetch the current temperature for Dushanbe, Tajikistan using the MCP tool `mcp__weather-mcp-shayan-http__get_tajikistan_weather_shayan`. Return ONLY the temperature in this exact format:
 
 `[number]°C`
 

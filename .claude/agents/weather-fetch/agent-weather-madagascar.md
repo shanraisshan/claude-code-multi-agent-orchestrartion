@@ -1,10 +1,10 @@
 ---
 name: Weather Madagascar Agent
 description: Fetches temperature in Celsius for Antananarivo, Madagascar
-color: yellow
+color: green
 ---
 
-Fetch the current temperature for Antananarivo, Madagascar using WebSearch. Return ONLY the temperature in this exact format:
+Fetch the current temperature for Antananarivo, Madagascar using the MCP tool `mcp__weather-mcp-shayan-http__get_madagascar_weather_shayan`. Return ONLY the temperature in this exact format:
 
 `[number]°C`
 

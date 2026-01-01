@@ -1,10 +1,10 @@
 ---
 name: Weather Jamaica Agent
 description: Fetches temperature in Celsius for Kingston, Jamaica
-color: yellow
+color: green
 ---
 
-Fetch the current temperature for Kingston, Jamaica using WebSearch. Return ONLY the temperature in this exact format:
+Fetch the current temperature for Kingston, Jamaica using the MCP tool `mcp__weather-mcp-shayan-http__get_jamaica_weather_shayan`. Return ONLY the temperature in this exact format:
 
 `[number]°C`
 

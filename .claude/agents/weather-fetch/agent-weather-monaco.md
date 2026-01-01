@@ -1,10 +1,10 @@
 ---
 name: Weather Monaco Agent
 description: Fetches temperature in Celsius for Monaco, Monaco
-color: yellow
+color: green
 ---
 
-Fetch the current temperature for Monaco, Monaco using WebSearch. Return ONLY the temperature in this exact format:
+Fetch the current temperature for Monaco, Monaco using the MCP tool `mcp__weather-mcp-shayan-http__get_monaco_weather_shayan`. Return ONLY the temperature in this exact format:
 
 `[number]°C`
 

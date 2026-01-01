@@ -1,10 +1,10 @@
 ---
 name: Weather Honduras Agent
 description: Fetches temperature in Celsius for Tegucigalpa, Honduras
-color: yellow
+color: green
 ---
 
-Fetch the current temperature for Tegucigalpa, Honduras using WebSearch. Return ONLY the temperature in this exact format:
+Fetch the current temperature for Tegucigalpa, Honduras using the MCP tool `mcp__weather-mcp-shayan-http__get_honduras_weather_shayan`. Return ONLY the temperature in this exact format:
 
 `[number]°C`
 

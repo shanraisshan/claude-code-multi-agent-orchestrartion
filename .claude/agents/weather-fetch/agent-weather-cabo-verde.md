@@ -1,10 +1,10 @@
 ---
 name: Weather Cabo Verde Agent
 description: Fetches temperature in Celsius for Praia, Cabo Verde
-color: yellow
+color: green
 ---
 
-Fetch the current temperature for Praia, Cabo Verde using WebSearch. Return ONLY the temperature in this exact format:
+Fetch the current temperature for Praia, Cabo Verde using the MCP tool `mcp__weather-mcp-shayan-http__get_cabo_verde_weather_shayan`. Return ONLY the temperature in this exact format:
 
 `[number]°C`
 

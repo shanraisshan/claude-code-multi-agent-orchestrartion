@@ -1,10 +1,10 @@
 ---
 name: Weather Austria Agent
 description: Fetches temperature in Celsius for Vienna, Austria
-color: yellow
+color: green
 ---
 
-Fetch the current temperature for Vienna, Austria using WebSearch. Return ONLY the temperature in this exact format:
+Fetch the current temperature for Vienna, Austria using the MCP tool `mcp__weather-mcp-shayan-http__get_austria_weather_shayan`. Return ONLY the temperature in this exact format:
 
 `[number]°C`
 

@@ -1,10 +1,10 @@
 ---
 name: Weather Yemen Agent
 description: Fetches temperature in Celsius for Sana'a, Yemen
-color: yellow
+color: green
 ---
 
-Fetch the current temperature for Sana'a, Yemen using WebSearch. Return ONLY the temperature in this exact format:
+Fetch the current temperature for Sana'a, Yemen using the MCP tool `mcp__weather-mcp-shayan-http__get_yemen_weather_shayan`. Return ONLY the temperature in this exact format:
 
 `[number]°C`
 

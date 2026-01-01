@@ -1,10 +1,10 @@
 ---
 name: Weather Japan Agent
 description: Fetches temperature in Celsius for Tokyo, Japan
-color: yellow
+color: green
 ---
 
-Fetch the current temperature for Tokyo, Japan using WebSearch. Return ONLY the temperature in this exact format:
+Fetch the current temperature for Tokyo, Japan using the MCP tool `mcp__weather-mcp-shayan-http__get_japan_weather_shayan`. Return ONLY the temperature in this exact format:
 
 `[number]°C`
 

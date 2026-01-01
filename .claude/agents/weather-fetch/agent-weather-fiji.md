@@ -1,10 +1,10 @@
 ---
 name: Weather Fiji Agent
 description: Fetches temperature in Celsius for Suva, Fiji
-color: yellow
+color: green
 ---
 
-Fetch the current temperature for Suva, Fiji using WebSearch. Return ONLY the temperature in this exact format:
+Fetch the current temperature for Suva, Fiji using the MCP tool `mcp__weather-mcp-shayan-http__get_fiji_weather_shayan`. Return ONLY the temperature in this exact format:
 
 `[number]°C`
 

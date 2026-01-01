@@ -1,10 +1,10 @@
 ---
 name: Weather Malta Agent
 description: Fetches temperature in Celsius for Valletta, Malta
-color: yellow
+color: green
 ---
 
-Fetch the current temperature for Valletta, Malta using WebSearch. Return ONLY the temperature in this exact format:
+Fetch the current temperature for Valletta, Malta using the MCP tool `mcp__weather-mcp-shayan-http__get_malta_weather_shayan`. Return ONLY the temperature in this exact format:
 
 `[number]°C`
 

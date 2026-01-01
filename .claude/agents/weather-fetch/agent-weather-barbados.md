@@ -1,10 +1,10 @@
 ---
 name: Weather Barbados Agent
 description: Fetches temperature in Celsius for Bridgetown, Barbados
-color: yellow
+color: green
 ---
 
-Fetch the current temperature for Bridgetown, Barbados using WebSearch. Return ONLY the temperature in this exact format:
+Fetch the current temperature for Bridgetown, Barbados using the MCP tool `mcp__weather-mcp-shayan-http__get_barbados_weather_shayan`. Return ONLY the temperature in this exact format:
 
 `[number]°C`
 

@@ -1,10 +1,10 @@
 ---
 name: Weather São Tomé and Príncipe Agent
 description: Fetches temperature in Celsius for São Tomé, São Tomé and Príncipe
-color: yellow
+color: green
 ---
 
-Fetch the current temperature for São Tomé, São Tomé and Príncipe using WebSearch. Return ONLY the temperature in this exact format:
+Fetch the current temperature for São Tomé, São Tomé and Príncipe using the MCP tool `mcp__weather-mcp-shayan-http__get_sao_tome_and_principe_weather_shayan`. Return ONLY the temperature in this exact format:
 
 `[number]°C`
 

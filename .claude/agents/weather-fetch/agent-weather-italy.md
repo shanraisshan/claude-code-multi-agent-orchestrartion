@@ -1,10 +1,10 @@
 ---
 name: Weather Italy Agent
 description: Fetches temperature in Celsius for Rome, Italy
-color: yellow
+color: green
 ---
 
-Fetch the current temperature for Rome, Italy using WebSearch. Return ONLY the temperature in this exact format:
+Fetch the current temperature for Rome, Italy using the MCP tool `mcp__weather-mcp-shayan-http__get_italy_weather_shayan`. Return ONLY the temperature in this exact format:
 
 `[number]°C`
 

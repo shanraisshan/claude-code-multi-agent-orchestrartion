@@ -1,10 +1,10 @@
 ---
 name: Weather Eswatini Agent
 description: Fetches temperature in Celsius for Mbabane, Eswatini
-color: yellow
+color: green
 ---
 
-Fetch the current temperature for Mbabane, Eswatini using WebSearch. Return ONLY the temperature in this exact format:
+Fetch the current temperature for Mbabane, Eswatini using the MCP tool `mcp__weather-mcp-shayan-http__get_eswatini_weather_shayan`. Return ONLY the temperature in this exact format:
 
 `[number]°C`
 
