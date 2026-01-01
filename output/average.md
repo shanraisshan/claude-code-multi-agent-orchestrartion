@@ -1,2 +1,1 @@
-Average = 10.2°C
-/c
+Average = 15.97°C
