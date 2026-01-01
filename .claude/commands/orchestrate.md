@@ -1,19 +1,214 @@
 # Orchestrate Command
 
-Orchestrates weather agents to fetch temperatures in parallel, then calculates the average.
+Orchestrates weather agents for ALL countries to fetch temperatures in parallel, then calculates the average.
 
 ## Instructions
 
-1. **Launch both weather agents in parallel** using the Task tool:
-   - Launch `Weather Pakistan Agent` with prompt: "Fetch the temperature"
-   - Launch `Weather India Agent` with prompt: "Fetch the temperature"
-   - Run both in background (`run_in_background: true`)
+1. **Launch ALL weather agents in parallel** using the Task tool with `run_in_background: true`:
 
-2. **Wait for both agents to complete** using TaskOutput
+   Launch each of these agents with prompt: "Fetch the temperature"
+
+   - `Weather Afghanistan Agent`
+   - `Weather Albania Agent`
+   - `Weather Algeria Agent`
+   - `Weather Andorra Agent`
+   - `Weather Angola Agent`
+   - `Weather Antigua and Barbuda Agent`
+   - `Weather Argentina Agent`
+   - `Weather Armenia Agent`
+   - `Weather Australia Agent`
+   - `Weather Austria Agent`
+   - `Weather Azerbaijan Agent`
+   - `Weather Bahamas Agent`
+   - `Weather Bahrain Agent`
+   - `Weather Bangladesh Agent`
+   - `Weather Barbados Agent`
+   - `Weather Belarus Agent`
+   - `Weather Belgium Agent`
+   - `Weather Belize Agent`
+   - `Weather Benin Agent`
+   - `Weather Bhutan Agent`
+   - `Weather Bolivia Agent`
+   - `Weather Bosnia and Herzegovina Agent`
+   - `Weather Botswana Agent`
+   - `Weather Brazil Agent`
+   - `Weather Brunei Agent`
+   - `Weather Bulgaria Agent`
+   - `Weather Burkina Faso Agent`
+   - `Weather Burundi Agent`
+   - `Weather Cabo Verde Agent`
+   - `Weather Cambodia Agent`
+   - `Weather Cameroon Agent`
+   - `Weather Canada Agent`
+   - `Weather Central African Republic Agent`
+   - `Weather Chad Agent`
+   - `Weather Chile Agent`
+   - `Weather China Agent`
+   - `Weather Colombia Agent`
+   - `Weather Comoros Agent`
+   - `Weather Democratic Republic of the Congo Agent`
+   - `Weather Republic of the Congo Agent`
+   - `Weather Costa Rica Agent`
+   - `Weather Côte d'Ivoire Agent`
+   - `Weather Croatia Agent`
+   - `Weather Cuba Agent`
+   - `Weather Cyprus Agent`
+   - `Weather Czechia Agent`
+   - `Weather Denmark Agent`
+   - `Weather Djibouti Agent`
+   - `Weather Dominica Agent`
+   - `Weather Dominican Republic Agent`
+   - `Weather Ecuador Agent`
+   - `Weather Egypt Agent`
+   - `Weather El Salvador Agent`
+   - `Weather Equatorial Guinea Agent`
+   - `Weather Eritrea Agent`
+   - `Weather Estonia Agent`
+   - `Weather Eswatini Agent`
+   - `Weather Ethiopia Agent`
+   - `Weather Fiji Agent`
+   - `Weather Finland Agent`
+   - `Weather France Agent`
+   - `Weather Gabon Agent`
+   - `Weather Gambia Agent`
+   - `Weather Georgia Agent`
+   - `Weather Germany Agent`
+   - `Weather Ghana Agent`
+   - `Weather Greece Agent`
+   - `Weather Grenada Agent`
+   - `Weather Guatemala Agent`
+   - `Weather Guinea Agent`
+   - `Weather Guinea-Bissau Agent`
+   - `Weather Guyana Agent`
+   - `Weather Haiti Agent`
+   - `Weather Honduras Agent`
+   - `Weather Hungary Agent`
+   - `Weather Iceland Agent`
+   - `Weather India Agent`
+   - `Weather Indonesia Agent`
+   - `Weather Iran Agent`
+   - `Weather Iraq Agent`
+   - `Weather Ireland Agent`
+   - `Weather Israel Agent`
+   - `Weather Italy Agent`
+   - `Weather Jamaica Agent`
+   - `Weather Japan Agent`
+   - `Weather Jordan Agent`
+   - `Weather Kazakhstan Agent`
+   - `Weather Kenya Agent`
+   - `Weather Kiribati Agent`
+   - `Weather Kuwait Agent`
+   - `Weather Kyrgyzstan Agent`
+   - `Weather Laos Agent`
+   - `Weather Latvia Agent`
+   - `Weather Lebanon Agent`
+   - `Weather Lesotho Agent`
+   - `Weather Liberia Agent`
+   - `Weather Libya Agent`
+   - `Weather Liechtenstein Agent`
+   - `Weather Lithuania Agent`
+   - `Weather Luxembourg Agent`
+   - `Weather Madagascar Agent`
+   - `Weather Malawi Agent`
+   - `Weather Malaysia Agent`
+   - `Weather Maldives Agent`
+   - `Weather Mali Agent`
+   - `Weather Malta Agent`
+   - `Weather Marshall Islands Agent`
+   - `Weather Mauritania Agent`
+   - `Weather Mauritius Agent`
+   - `Weather Mexico Agent`
+   - `Weather Micronesia Agent`
+   - `Weather Moldova Agent`
+   - `Weather Monaco Agent`
+   - `Weather Mongolia Agent`
+   - `Weather Montenegro Agent`
+   - `Weather Morocco Agent`
+   - `Weather Mozambique Agent`
+   - `Weather Myanmar Agent`
+   - `Weather Namibia Agent`
+   - `Weather Nauru Agent`
+   - `Weather Nepal Agent`
+   - `Weather Netherlands Agent`
+   - `Weather New Zealand Agent`
+   - `Weather Nicaragua Agent`
+   - `Weather Niger Agent`
+   - `Weather Nigeria Agent`
+   - `Weather North Korea Agent`
+   - `Weather North Macedonia Agent`
+   - `Weather Norway Agent`
+   - `Weather Oman Agent`
+   - `Weather Pakistan Agent`
+   - `Weather Palau Agent`
+   - `Weather Palestine Agent`
+   - `Weather Panama Agent`
+   - `Weather Papua New Guinea Agent`
+   - `Weather Paraguay Agent`
+   - `Weather Peru Agent`
+   - `Weather Philippines Agent`
+   - `Weather Poland Agent`
+   - `Weather Portugal Agent`
+   - `Weather Qatar Agent`
+   - `Weather Romania Agent`
+   - `Weather Russia Agent`
+   - `Weather Rwanda Agent`
+   - `Weather Saint Kitts and Nevis Agent`
+   - `Weather Saint Lucia Agent`
+   - `Weather Saint Vincent and the Grenadines Agent`
+   - `Weather Samoa Agent`
+   - `Weather San Marino Agent`
+   - `Weather São Tomé and Príncipe Agent`
+   - `Weather Saudi Arabia Agent`
+   - `Weather Senegal Agent`
+   - `Weather Serbia Agent`
+   - `Weather Seychelles Agent`
+   - `Weather Sierra Leone Agent`
+   - `Weather Singapore Agent`
+   - `Weather Slovakia Agent`
+   - `Weather Slovenia Agent`
+   - `Weather Solomon Islands Agent`
+   - `Weather Somalia Agent`
+   - `Weather South Africa Agent`
+   - `Weather South Korea Agent`
+   - `Weather South Sudan Agent`
+   - `Weather Spain Agent`
+   - `Weather Sri Lanka Agent`
+   - `Weather Sudan Agent`
+   - `Weather Suriname Agent`
+   - `Weather Sweden Agent`
+   - `Weather Switzerland Agent`
+   - `Weather Syria Agent`
+   - `Weather Tajikistan Agent`
+   - `Weather Tanzania Agent`
+   - `Weather Thailand Agent`
+   - `Weather Timor-Leste Agent`
+   - `Weather Togo Agent`
+   - `Weather Tonga Agent`
+   - `Weather Trinidad and Tobago Agent`
+   - `Weather Tunisia Agent`
+   - `Weather Turkey Agent`
+   - `Weather Turkmenistan Agent`
+   - `Weather Tuvalu Agent`
+   - `Weather Uganda Agent`
+   - `Weather Ukraine Agent`
+   - `Weather United Arab Emirates Agent`
+   - `Weather United Kingdom Agent`
+   - `Weather United States Agent`
+   - `Weather Uruguay Agent`
+   - `Weather Uzbekistan Agent`
+   - `Weather Vanuatu Agent`
+   - `Weather Vatican City Agent`
+   - `Weather Venezuela Agent`
+   - `Weather Vietnam Agent`
+   - `Weather Yemen Agent`
+   - `Weather Zambia Agent`
+   - `Weather Zimbabwe Agent`
+
+2. **Wait for ALL agents to complete** using TaskOutput for each agent
 
 3. **Launch the Weather Writer Agent** to write results:
-   - Launch `Weather Writer Agent` with prompt containing the temperatures:
-     "Write these temperatures: Pakistan = [temp1], India = [temp2]"
+   - Launch `Weather Writer Agent` with prompt containing ALL temperatures:
+     "Write these temperatures: Afghanistan = [temp], Albania = [temp], ... [include all countries and their temperatures]"
    - Wait for it to complete
 
 4. **Launch the Weather Average Agent** (sequentially, after temperatures are saved):
@@ -26,8 +221,8 @@ Orchestrates weather agents to fetch temperatures in parallel, then calculates t
 
 ## Important
 
-- Run weather fetch agents in PARALLEL
-- Run Weather Writer Agent AFTER fetching temperatures
+- Run ALL weather fetch agents in PARALLEL (all 195 countries at once)
+- Run Weather Writer Agent AFTER all temperatures are fetched
 - Run Average Agent AFTER temperatures are written
-- Output format for temperatures is just two lines
-- Output format for average is just one line
+- Output format for temperatures: one line per country (e.g., "Afghanistan = 5°C")
+- Output format for average: single line (e.g., "Average = 20.5°C")

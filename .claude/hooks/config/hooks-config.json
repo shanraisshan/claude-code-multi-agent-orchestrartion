@@ -1,13 +1,13 @@
 {
   "disableLogging": true,
-  "disablePreToolUseHook": false,
+  "disablePreToolUseHook": true,
   "disablePermissionRequestHook": false,
-  "disablePostToolUseHook": false,
+  "disablePostToolUseHook": true,
   "disableUserPromptSubmitHook": false,
   "disableNotificationHook": false,
   "disableStopHook": false,
-  "disableSubagentStartHook": false,
-  "disableSubagentStopHook": false,
+  "disableSubagentStartHook": true,
+  "disableSubagentStopHook": true,
   "disablePreCompactHook": false,
   "disableSessionStartHook": false,
   "disableSessionEndHook": false
